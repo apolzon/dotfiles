@@ -1,0 +1,1 @@
+../bundle/vimoutliner/ftplugin/vo_base.vim

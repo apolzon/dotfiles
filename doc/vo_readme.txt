@@ -1,0 +1,1 @@
+../bundle/vimoutliner/doc/vo_readme.txt

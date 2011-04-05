@@ -1,0 +1,1 @@
+../bundle/vim-haml/syntax/scss.vim

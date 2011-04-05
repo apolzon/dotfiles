@@ -1,0 +1,1 @@
+../bundle/vim-haml/indent/sass.vim

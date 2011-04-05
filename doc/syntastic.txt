@@ -1,0 +1,1 @@
+../bundle/syntastic/doc/syntastic.txt

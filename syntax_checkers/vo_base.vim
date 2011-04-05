@@ -1,0 +1,1 @@
+../bundle/vimoutliner/syntax/vo_base.vim

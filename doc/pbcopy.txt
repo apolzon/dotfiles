@@ -1,0 +1,1 @@
+../bundle/pbcopy.vim/doc/pbcopy.txt

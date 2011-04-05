@@ -1,0 +1,1 @@
+../bundle/vim-haml/ftdetect/haml.vim
