@@ -6,7 +6,11 @@ set nocompatible
 set shell=/bin/sh
 call pathogen#runtime_append_all_bundles()
 runtime macros/matchit.vim
-colorscheme bespin
+if has("gui_macvim")
+  colorscheme bespin
+else
+  colorscheme jellybeans
+endif
 filetype plugin indent on
 syntax on
 
