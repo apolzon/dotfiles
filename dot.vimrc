@@ -4,11 +4,17 @@
 let mapleader = ","
 set nocompatible
 set shell=/bin/sh
+let g:indent_guides_auto_color = 0
+let g:indent_guides_guide_size = 1
+let g:indent_guides_enable_on_vim_startup = 1
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=DarkBlue
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=DarkBlue
 call pathogen#runtime_append_all_bundles()
 runtime macros/matchit.vim
 if has("gui_macvim")
   colorscheme bespin
 else
+  colorscheme vibrantink
   colorscheme jellybeans
 endif
 filetype plugin indent on
