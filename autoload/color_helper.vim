@@ -1,0 +1,1 @@
+../bundle/vim-indent-guides/autoload/color_helper.vim

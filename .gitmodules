@@ -106,3 +106,6 @@
 [submodule "color_bundle/vim_colors"]
 	path = color_bundle/vim_colors
 	url = https://github.com/squil/vim_colors.git
+[submodule "bundle/vim-indent-guides"]
+	path = bundle/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
