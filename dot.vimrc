@@ -20,6 +20,7 @@ set showcmd
 set showmatch
 set nowrap
 set number
+set hlsearch
 set ignorecase smartcase
 "set laststatus=2 always show status line
 set nobackup
