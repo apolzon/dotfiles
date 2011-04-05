@@ -1,0 +1,17 @@
+== INSTALLATION
+- Clone somewhere safe
+- cd into the repo
+:
+  git submodule init
+  git submodule update
+
+- link to your home folder like so (this order is for OSX, Ubuntu is the opposite...RTfM):
+:
+  ln -s ~/<path-to-dotfiles>/dot.vimrc ~/.vimrc
+  ln -s ~/<path-to-dotfiles> ~/.vim
+For example:
+  ln -s ~/dev/dotfiles/dot.vimrc ~/.vimrc
+  ln -s ~/dev/dotfiles ~/.vim
+
+Everything should just ... work.  Run :helptags ~/.vim/doc to get the help sourced where available.
+Feel free to nix the peepopen plugin if you don't use their product....but I highly recommend it.
