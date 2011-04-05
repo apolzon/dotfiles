@@ -38,17 +38,14 @@ let g:syntastic_enable_signs=1
 let g:syntastic_quiet_warnings=1
 
 map <Leader>c :call system("pbcopy", getreg('""'))<CR>
-"vmap <D-c> y:call system("pbcopy", getreg('""'))<CR>
 map <D-c> yy:call CopyNoCarriage()<CR>
+map <Leader>r :execute '!rspec %' . ' --line_number ' . line('.')<CR>
 
 function! CopyNoCarriage()
   let str = substitute(getreg('0'), '\n', '', 'g')
-  "let str = "bob"
-  "let str = getreg('0')
   call system("pbcopy",str)
   return str
 endfunction
-
 
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
