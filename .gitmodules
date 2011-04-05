@@ -85,3 +85,24 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "color_bundle/Color-Sampler-Pack"]
+	path = color_bundle/Color-Sampler-Pack
+	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "color_bundle/Liquid-Carbon"]
+	path = color_bundle/Liquid-Carbon
+	url = https://github.com/vim-scripts/Liquid-Carbon.git
+[submodule "color_bundle/ego.vim"]
+	path = color_bundle/ego.vim
+	url = https://github.com/geetarista/ego.vim.git
+[submodule "color_bundle/jellybeans.vim"]
+	path = color_bundle/jellybeans.vim
+	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "color_bundle/solarized"]
+	path = color_bundle/solarized
+	url = https://github.com/altercation/solarized.git
+[submodule "color_bundle/zazen"]
+	path = color_bundle/zazen
+	url = https://github.com/zaki/zazen.git
+[submodule "color_bundle/vim_colors"]
+	path = color_bundle/vim_colors
+	url = https://github.com/squil/vim_colors.git
