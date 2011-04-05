@@ -45,6 +45,7 @@ let g:syntastic_quiet_warnings=1
 map <Leader>c :call system("pbcopy", getreg('""'))<CR>
 map <D-c> yy:call CopyNoCarriage()<CR>
 map <Leader>r :execute '!rspec %' . ' --line_number ' . line('.')<CR>
+map <D-/> <Leader>c<space>
 
 function! CopyNoCarriage()
   let str = substitute(getreg('0'), '\n', '', 'g')
