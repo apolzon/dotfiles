@@ -1,1 +1,1 @@
-/Users/apolzon/dev/dotfiles/bundle/vim-preview/autoload/preview.vim
+../bundle/vim-preview/autoload/preview.vim
