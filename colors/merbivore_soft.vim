@@ -1,0 +1,1 @@
+../color_bundle/vim_colors/merbivore_soft.vim

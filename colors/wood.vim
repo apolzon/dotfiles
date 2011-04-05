@@ -1,0 +1,1 @@
+../color_bundle/Color-Sampler-Pack/colors/wood.vim

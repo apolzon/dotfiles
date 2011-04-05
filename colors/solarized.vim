@@ -1,0 +1,1 @@
+../color_bundle/solarized/vim-colors-solarized/colors/solarized.vim

@@ -1,0 +1,1 @@
+../color_bundle/vim_colors/colorscheme_template.vim
