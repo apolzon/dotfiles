@@ -43,7 +43,7 @@ match ExtraWhiteSpace /\s\+$/
 set wildignore +=.git,vendor,*.swp,*~
 
 " Add some file types to Ruby
-au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru} set ft=ruby
+au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru,*.thor} set ft=ruby
 
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_warnings=1
