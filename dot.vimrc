@@ -31,7 +31,7 @@ set ignorecase smartcase
 "set laststatus=2 always show status line
 set nobackup
 set noswapfile
-set foldlevel=2
+set foldlevel=99
 set foldmethod=indent
 set foldenable
 set tabstop=2
@@ -52,6 +52,11 @@ map <Leader>c :call system("pbcopy", getreg('""'))<CR>
 map <D-c> yy:call CopyNoCarriage()<CR>
 map <Leader>r :execute '!rspec %' . ' --line_number ' . line('.')<CR>
 map <D-/> <Leader>c<space>
+map <C-j> <C-w>j<CR>
+map <C-k> <C-w>k<CR>
+map <C-h> <C-w>h<CR>
+map <C-l> <C-w>l<CR>
+
 
 function! CopyNoCarriage()
   let str = substitute(getreg('0'), '\n', '', 'g')
