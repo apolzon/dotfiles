@@ -4,6 +4,8 @@
 let mapleader = ","
 set nocompatible
 set shell=/bin/sh
+set novisualbell
+set vb t_vb=
 let g:indent_guides_auto_color = 0
 let g:indent_guides_guide_size = 1
 let g:indent_guides_enable_on_vim_startup = 1
