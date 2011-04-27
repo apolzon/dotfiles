@@ -59,6 +59,10 @@ map <C-k> <C-w>k<CR>
 map <C-h> <C-w>h<CR>
 map <C-l> <C-w>l<CR>
 
+" Never show scrollbars
+set guioptions-=L
+set guioptions-=r
+
 
 function! CopyNoCarriage()
   let str = substitute(getreg('0'), '\n', '', 'g')
