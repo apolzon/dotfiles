@@ -73,3 +73,5 @@ endfunction
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+au VimEnter * VTreeExplore

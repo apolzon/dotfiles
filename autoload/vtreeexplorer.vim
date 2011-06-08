@@ -1,0 +1,1 @@
+../bundle/vtreeexplorer/plugin/vtreeexplorer.vim
