@@ -75,6 +75,7 @@ if filereadable(expand("~/.vimrc.local"))
 endif
 
 imap <D-> <Esc>
+vmap <D-> <Esc>
 "au VimEnter * VTreeExplore
 "nnoremap <Tab> <Esc>
 "vnoremap <Tab> <Esc>gV
