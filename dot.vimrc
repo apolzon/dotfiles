@@ -74,11 +74,7 @@ if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
 
-imap <D-> <Esc>
-vmap <D-> <Esc>
+inoremap <D-> <Esc>
+vnoremap <D-> <Esc>
+nnoremap <D-> <Esc>
 "au VimEnter * VTreeExplore
-"nnoremap <Tab> <Esc>
-"vnoremap <Tab> <Esc>gV
-"onoremap <Tab> <Esc>
-"inoremap <Tab> <Esc>`^
-"inoremap <Leader><Tab> <Tab>
