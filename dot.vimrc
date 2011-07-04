@@ -15,9 +15,6 @@ call pathogen#runtime_append_all_bundles()
 runtime macros/matchit.vim
 if has("gui_macvim")
   colorscheme bespin
-else
-  colorscheme vibrantink
-  colorscheme jellybeans
 endif
 filetype plugin indent on
 syntax on
