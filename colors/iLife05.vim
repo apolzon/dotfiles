@@ -1,1 +1,0 @@
-../color_bundle/vim_colors/iLife05.vim

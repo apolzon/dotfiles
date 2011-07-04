@@ -1,1 +1,0 @@
-../color_bundle/jellybeans.vim/colors/jellybeans.vim

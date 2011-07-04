@@ -1,1 +1,0 @@
-../color_bundle/Color-Sampler-Pack/colors/print_bw.vim

@@ -1,1 +1,0 @@
-../color_bundle/zazen/zazen.vim
