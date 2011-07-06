@@ -30,7 +30,7 @@ hi rubyRailsValidationMethod ctermfg=220
 hi rubyRailsControllerMethod ctermfg=91
 hi rubyRailsFilterMethod ctermfg=214
 hi rubyRailsMethod ctermfg=55
-hi rubyConstant ctermfg=125 guifg=#9b859d guibg=NONE gui=NONE
+hi rubyConstant ctermfg=93 guifg=#9b859d guibg=NONE gui=NONE
 hi rubyInclude ctermfg=130 guifg=#5ea6ea guibg=NONE gui=NONE
 hi rubyFunction ctermfg=127 guifg=#937121 guibg=NONE gui=NONE
 hi rubyRailsARMethod ctermfg=130 guifg=#dad085 guibg=NONE gui=NONE
