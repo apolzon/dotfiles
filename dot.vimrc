@@ -9,12 +9,12 @@ set vb t_vb=
 let g:indent_guides_auto_color = 0
 let g:indent_guides_guide_size = 1
 let g:indent_guides_enable_on_vim_startup = 1
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=DarkBlue
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=DarkBlue
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=DarkBlue
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=DarkBlue
 call pathogen#runtime_append_all_bundles()
 runtime macros/matchit.vim
 if has("gui_macvim")
-  colorscheme bespin
+  colorscheme apolzon
 endif
 filetype plugin indent on
 syntax on
@@ -49,7 +49,8 @@ let g:syntastic_quiet_warnings=1
 
 map <Leader>c :call system("pbcopy", getreg('""'))<CR>
 map <D-c> yy:call CopyNoCarriage()<CR>
-map <Leader>r :execute '!rspec %' . ' --line_number ' . line('.')<CR>
+map <Leader>r :.Rake<CR>
+map <Leader>a :Rake<CR>
 map <D-/> <Leader>c<space>
 map <C-j> <C-w>j<CR>
 map <C-k> <C-w>k<CR>
