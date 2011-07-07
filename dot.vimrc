@@ -19,6 +19,7 @@ syntax on
 
 autocmd BufWritePost *.vim colorscheme apolzon256
 
+set guifont=monaco:h14
 set backspace=indent,eol,start " backspace over everything
 set ruler
 set showcmd
