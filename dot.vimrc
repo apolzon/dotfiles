@@ -12,7 +12,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=236
 call pathogen#runtime_append_all_bundles()
-runtime macros/matchit.vim
+runtime matchit.vim
 colorscheme apolzon256
 filetype plugin indent on
 syntax on
