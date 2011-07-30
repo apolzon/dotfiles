@@ -76,4 +76,9 @@ endif
 inoremap <D-> <Esc>
 vnoremap <D-> <Esc>
 nnoremap <D-> <Esc>
-"au VimEnter * VTreeExplore
+function! OpenVTreeExplore()
+  if &ft == ''
+    VTreeExplore
+  endif
+endfunction
+au BufEnter,VimEnter * call OpenVTreeExplore()
