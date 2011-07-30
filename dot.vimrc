@@ -48,6 +48,11 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Thorfile,config.ru,*.thor} set ft=ruby
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_warnings=1
 
+let g:treeExplVertical=1
+let g:treeExplDirSort=1
+let g:treeExplIndent=2
+let g:treeExplNoList=1
+
 map <Leader>c :call system("pbcopy", getreg('""'))<CR>
 map <D-c> yy:call CopyNoCarriage()<CR>
 map <Leader>r :.Rake<CR>
@@ -77,7 +82,8 @@ inoremap <D-> <Esc>
 vnoremap <D-> <Esc>
 nnoremap <D-> <Esc>
 function! OpenVTreeExplore()
-  if &ft == ''
+  "if &ft == ''
+  if isdirectory(expand("<amatch>"))
     VTreeExplore
   endif
 endfunction
