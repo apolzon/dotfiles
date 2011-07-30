@@ -540,7 +540,7 @@ function! s:OpenExplorer() " <<<
 	wincmd p
 	if oldwin == winnr() || &modified
 		wincmd p
-		exec ("new " . curfile)
+		exec ("edit " . curfile)
 	else
 		exec ("edit " . curfile)
 	endif
