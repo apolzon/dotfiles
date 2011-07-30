@@ -591,7 +591,7 @@ function! s:Activate(how) " <<<
 			exec ("tabedit " . f)
 		elseif oldwin == winnr() || (&modified && s:BufInWindows(winbufnr(winnr())) < 2)
 			wincmd p
-			exec ("new " . f)
+			exec ("edit " . f)
 		else
 			exec ("edit " . f)
 		endif
