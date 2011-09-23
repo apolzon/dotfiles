@@ -29,6 +29,7 @@ hi PreProc ctermfg=130 guifg=#E6196E
 hi Tag ctermfg=130 guifg=white
 hi VertSplit ctermfg=4 guifg=#207996
 hi Comment guifg=#068F76
+hi rubyException guifg=white
 hi rubyRailsUserClass ctermfg=28 guifg=#BF4000
 hi rubyRailsARAssociationMethod ctermfg=127 guifg=#870C2B
 hi rubyRailsARMethod ctermfg=130 guifg=#870C2B
@@ -52,8 +53,8 @@ hi rubyFunction ctermfg=28 guifg=#BF4000
 hi rubyOperator ctermfg=130 guifg=#BF4000
 hi rubyException ctermfg=130 guifg=#28211C
 
-hi IndentGuidesOdd ctermbg=0
-hi IndentGuidesEven ctermbg=236
+"hi IndentGuidesOdd ctermbg=0
+"hi IndentGuidesEven ctermbg=236
 
 " above is complete for 256-term
 " below from bespin

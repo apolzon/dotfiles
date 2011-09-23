@@ -6,11 +6,11 @@ set nocompatible
 set shell=/bin/sh
 set novisualbell
 set vb t_vb=
-let g:indent_guides_auto_colors = 0
+let g:indent_guides_auto_colors = 1
 let g:indent_guides_guide_size = 1
 let g:indent_guides_enable_on_vim_startup = 1
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=236
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=0 guifg=
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=236
 call pathogen#runtime_append_all_bundles()
 runtime matchit.vim
 colorscheme apolzon256
@@ -39,6 +39,8 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 highlight ExtraWhiteSpace ctermbg=white guibg=white
+highlight rubyException guifg=white
+
 match ExtraWhiteSpace /\s\+$/
 set wildignore +=.git,vendor,*.swp,*~
 
